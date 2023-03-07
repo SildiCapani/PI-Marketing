@@ -1,0 +1,126 @@
+.login{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(../images/login.png);
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.login h1{
+    color: #9D3EC1;
+    font-size: 74px;
+    margin-bottom: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.login form{
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    
+}
+
+.login form input{
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: #9D3EC1;
+    border: 1px solid #9D3EC1;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.content .input{
+    margin-bottom: 30px;
+}
+
+input::placeholder{
+    color: rgba(240, 248, 255, 0.486);
+}
+
+.login button{
+    width: 22%;
+    margin-left: auto;
+    border: 1px solid #9D3EC1;
+    background-color: #9D3EC1;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.login button:hover{
+    cursor: pointer;
+    width: 24%;
+    padding: 14px;
+    transition: 0.7s;
+}
+
+.singup{
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+}
+
+.links{
+    font-size: 17px;
+    color: #9D3EC1;
+    text-decoration: none;
+}
+
+.register-logo{
+    margin-bottom: .5vw;
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-left: .4vw;
+}
+
+.error{
+    text-align: center;
+    color: red;
+}
+
+@media(max-width: 700px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 98%; 
+    }
+    .login form{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        padding: 14px;
+        
+    }
+    .login form input{
+        padding: 14px;
+        margin-bottom: 20px;
+        background-color: #9D3EC1;
+        border: 1px solid #9D3EC1;
+        border-radius: 20px;
+        color: aliceblue;
+        font-size: 18px;
+    }
+    .singup{
+        margin-top: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 1rem;
+        font-size: 14px;
+    }
+    .register-logo{
+        font-size: 20px;
+    }
+}

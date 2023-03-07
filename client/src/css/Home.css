@@ -1,0 +1,208 @@
+.home{
+    background-image: url('../images/background2.png');
+    
+    height: 212vh;
+    width: 100%;
+    z-index: 1;
+    background-size: cover;
+}
+
+.body{
+    padding-top: 20vh;
+    height: 100vh;
+    padding-left: 14vh;
+    position: absolute;
+}
+
+.heading{
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    font-weight: 900;
+    font-stretch: 150%;
+    letter-spacing: 4px;
+}
+
+.dec{
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-top: 4vh;
+    margin-bottom: 7vh;
+    letter-spacing: 1px;
+}
+
+.btn.btn-primary{
+    border: 5px solid white;
+    border-radius: 80px;
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: rgb(252, 0, 147);
+    font-weight: bolder;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to left, rgb(245, 98, 183), rgb(167, 98, 245));
+    border-color:  rgb(245, 98, 183);
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+
+.heading.bold{
+    margin-top: 7vh;
+    font-size: 2.7vw;
+    display: block;
+    font-stretch: wider;
+    background-image: linear-gradient(to left, rgb(245, 98, 183), rgb(167, 98, 245));
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+/*              SERVICES                  */
+
+
+.home-services h1{
+    color: white;
+    font-size: 3vw;
+}
+.home-services p{
+    color: white;
+    font-size: 1.3vw;
+}
+.service p{
+    color: black;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+.home-services{  
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    gap: 2vw;
+    margin: 2vw 0vw 0vw 17vw;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 40px;
+    margin-right: 2vw;
+}
+
+.service p{
+    font-size: 1.4vw;
+}
+
+.services img{
+    height: 7vw;
+    margin-bottom: 1vw;
+}
+
+
+
+
+
+/*              CONTACT                  */
+
+
+
+
+
+.contact{
+    background-image: url(../images/kontaktuspage.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    position: absolute;
+    margin-left: 7vw;
+    color: aliceblue;
+    font-size: 1.5vw;
+    font-weight: 700;
+    bottom: 5vw;
+}
+
+.contact-form{
+    position: absolute;
+    right: 7vw;
+    margin-top: 15vw;
+}
+
+.contact-form ul li {
+    color: aliceblue;
+    font-size: 1.5vw;
+}
+
+.contact-form h1{
+    margin-top: 1vw;
+    color: aliceblue;
+    width: 100%;
+    font-size: 3vw;
+}
+
+.contact-form form{
+    display: flex;
+    gap: 1.5vw;
+    width: 70%;
+    margin-top: 2vw;
+    flex-direction: column;
+}
+
+.input{
+    padding: 0.8vw;
+    border: 2px solid #9D3EC1;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+
+.input::placeholder{
+    color: #9D3EC1;
+    font-weight: 900;
+    font-size: 0.8vw;
+}
+
+.checkbox{
+    font-size: 0.7vw;
+    margin-left: 1vw;
+}
+
+.submit-btn{
+    position: absolute;
+    width: 15%;
+    top: 100%;
+    left: 55%;
+    background-color: #9D3EC1;
+    color: aliceblue;
+    font-size: 1vw;
+    font-weight: 700;
+    border: 1px solid #9D3EC1;
+    padding: 0.5vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.submit-btn:hover{
+    padding: 0.7vw;
+    font-size: 1.1vw;
+    transition: 0.5s;
+}

@@ -1,0 +1,300 @@
+/*      WEB DEVELOPMENT        */
+
+.webdev{
+    
+    background: url(../images/webdeveloper.png) no-repeat  ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 10vw;
+    text-align: center;
+}
+
+.web-desing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12vw 55vw 0vw 0vw;
+    gap: 1vw;
+}
+
+.webdev h1{
+    color: rgb(19, 0, 87);
+    font-size: 4vw;
+}
+
+.webdev p{
+    font-size: 1.3vw;
+}
+
+.web-dev{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20vw 0vw 0vw 59vw;
+    text-align: center;
+    gap: 1vw;
+}
+
+.web-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vw;
+    gap: 2vw;
+}
+
+.web-info h1{
+    color: #9D3EC1;
+}
+
+.web-info h2{
+    color: #9D3EC1;
+    font-size: 1.5vw;
+}
+
+
+/*            GRAPHIC DESIGN             */
+
+.design{
+    background-image: url(../images/graphicdesign_page.png);
+    background-size: cover;
+    height: 85vw;
+}
+
+.design-text{
+    padding: 10vw 0vw 7vw 12vw;
+    top:  17vw;
+    left: 14vw;
+}
+
+.design-text h1{
+    color: white;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+}
+
+.design-text p {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.design-options{
+    display: flex;
+    margin-top: 4vw;
+    margin-left: 13vw;
+    top: 57vw;
+    left: 14vw;
+}
+
+.design-options.n{
+    margin-top: 0vw;
+}
+
+.design-options p {
+    background-color: white;
+    padding: 1vw 2vw 1vw 2vw;
+    margin: 1vw;
+    border-radius: 1vw;
+    font-size: 1.7vw;
+    font-weight: 900;
+}
+
+.design-options.n p{
+    padding: 1.1vw;
+}
+
+.design-desc{
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.design-desc p {
+    color: white;
+    font-weight: 700;
+    font-size: 1.4vw;
+}
+
+.design-p{
+    margin-bottom: 3vw;
+}
+
+
+
+/*             ABOUT             */
+
+
+.about-bg{
+    background-image: url(../images/aboutus_backgroung.png);
+    background-size: cover;
+    height: 60vw;
+}
+
+.about-us{
+    display: flex;
+    gap: 8vw;
+    padding: 5vw 0vw 0vw 4vw;
+}
+
+.about-{
+    display: flex;
+    flex-direction: column;
+}
+
+.about- p {
+    font-size: 1.4vw;
+}
+
+.about- h3{
+    color: white;
+    font-size: 1.7vw;
+}
+
+.about-span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 10vw;
+    gap: 2vw;
+}
+
+.about-profiles{
+    display: flex;
+    gap: 4vw;
+}
+
+
+
+/*              DIGITAL MARKETING              */
+
+
+.digital{
+    background: url(../images/digitalmarketing.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-weight: 700;
+}
+
+.digital-.first{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    position: absolute;
+    right: 5vw;
+    top: 12vw;
+}
+
+.digital- .span{
+    text-align: center;
+}
+
+.digital- h1{
+    font-size: 4vw;
+}
+
+.digital- p{
+    font-size: 1.2vw;
+}
+
+.digital- .p-color{
+    color: #fc62d5;
+}
+
+.digital-.second{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    
+    text-align: center;
+    padding: 50vw 47vw 14vw 0vw;
+    color: white;
+}
+
+
+
+/*             SMM              */
+
+
+.smm{
+    background: url(../images/smm.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    padding: 4vw 0vw 7vw 5vw;
+    font-weight: 700;
+}
+
+.smm h1{
+    color: white;
+    font-size: 4vw;
+}
+
+.smm .first{
+    font-size: 1.5vw;
+}
+
+.smm .second{
+    color: white;
+    font-size: 1.4vw;
+}
+
+.smm .third{
+    text-align: center;
+    color: #1d0c46;
+    font-size: 2vw;
+}
+
+
+/*             MARKETING               */
+
+
+.marketing{
+    background: url(../images/marketingservices.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    padding: 5vw 0vw 5vw 4vw;
+}
+
+.marketing .first{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 0vw 0vw 5vw 50vw;
+}
+
+.marketing h1{
+    font-size: 4vw;
+}
+
+.marketing p{
+    font-size: 1.5vw;
+}
+
+.marketing .second{
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 0vw 5vw 0vw;
+    gap: 3vw;
+}
+
+.second .span{ 
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-right: 40vw;
+    text-align: center;
+}
+
+.second .span p{
+    color: #fc62d5;
+}
